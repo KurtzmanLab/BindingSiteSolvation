@@ -1,0 +1,11 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,"LIG-O - GLU55-OE1,2",6,1.018,16372,0.82,Donor,Donor,0.0,1.001527,['NONE'],"['GLU55-OE1 (99.70)', 'GLU55-OE2 (0.50)']",1.915 (LIG to GLU55-OE1)
+1,1,1,LIG-N3 - CYS86-N,9,1.33,14926,0.75,Acceptor,,0.597213,0.103243,['CYS86-N (59.70)'],['CYS86-O (10.30)'],10.766 (CYS86-N to LIG)
+2,2,2,LIG-N4 - ILE17-O,31,3.318,6755,0.34,Donor,Donor,0.0,0.773649,['NONE'],['ILE17-O (77.40)'],6.823 (LIG to ILE17-O)

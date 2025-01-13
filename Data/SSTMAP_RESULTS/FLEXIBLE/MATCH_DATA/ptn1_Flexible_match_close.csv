@@ -1,0 +1,14 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-O5 - ARG221-N,,,,,Acceptor,,,,,,"11.286 (ARG221-N to LIG), 9.077 (ARG221-NE to LIG)"
+1,1,1,LIG-O5 - ARG221-NE,2.0,2.567,17571.0,0.88,Acceptor,Acceptor/Donor,2.948267,1.870582,"['CYS215-SG (70.50)', 'SER216-N (69.20)', 'ALA217-N (13.70)', 'ARG221-NE (53.20)', 'ARG221-NH2 (88.30)']","['ASP181-OD1 (1.50)', 'ASP181-OD2 (95.30)', 'SER216-OG (90.30)']",9.077 (ARG221-NE to LIG)
+2,2,2,"LIG-O4 - ARG221-NH1,2",2.0,2.401,17571.0,0.88,Acceptor,Acceptor/Donor,2.948267,1.870582,"['CYS215-SG (70.50)', 'SER216-N (69.20)', 'ALA217-N (13.70)', 'ARG221-NE (53.20)', 'ARG221-NH2 (88.30)']","['ASP181-OD1 (1.50)', 'ASP181-OD2 (95.30)', 'SER216-OG (90.30)']",12.77 (ARG221-NH2 to LIG)
+3,3,3,LIG-O - LYS120-NZ,14.0,4.41,7955.0,0.4,Acceptor,Acceptor,0.840478,0.0,"['LYS116-NZ (0.40)', 'LYS120-NZ (83.70)']",['NONE'],16.832 (LYS120-NZ to LIG)
+4,4,4,LIG-O3 - GLN266-NE2,3.0,0.603,17333.0,0.87,Acceptor,Acceptor/Donor,2.054347,1.976807,"['PHE182-N (85.00)', 'ARG221-N (23.40)', 'GLN266-NE2 (97.00)']","['ASP181-OD1 (0.00)', 'ASP181-OD2 (99.80)', 'GLN262-OE1 (97.90)']",10.321 (GLN266-NE2 to LIG)
+5,5,5,LIG-O3 - PHE182-N,3.0,0.603,17333.0,0.87,Acceptor,Acceptor/Donor,2.054347,1.976807,"['PHE182-N (85.00)', 'ARG221-N (23.40)', 'GLN266-NE2 (97.00)']","['ASP181-OD1 (0.00)', 'ASP181-OD2 (99.80)', 'GLN262-OE1 (97.90)']",20.38 (PHE182-N to LIG)

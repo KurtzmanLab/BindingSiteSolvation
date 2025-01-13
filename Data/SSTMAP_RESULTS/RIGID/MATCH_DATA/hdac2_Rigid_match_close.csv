@@ -1,0 +1,11 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-O - TYR298-OH,5,1.95,16523,0.83,Acceptor,Acceptor/Donor,0.671791,0.899292,['TYR298-OH (67.20)'],"['HIS173-NE2 (89.90)', 'TYR298-OH (0.00)']",14.333 (TYR298-OH to LIG)
+1,1,1,LIG-N2 - GLY144-O,6,2.234,16363,0.82,Donor,Donor,0.000183,0.910897,['CYS146-SG (0.00)'],"['GLY144-O (76.10)', 'CYS146-SG (0.30)', 'TYR298-OH (14.70)']",18.469 (LIG to GLY144-O)
+2,2,2,LIG-N1 - HIS136-NE2,8,2.301,15750,0.79,Donor,Donor,0.007238,0.855048,['TYR298-OH (0.70)'],"['HIS136-NE2 (84.80)', 'GLY144-O (0.70)', 'HIS173-NE2 (0.00)', 'TYR298-OH (0.00)']",20.763 (LIG to HIS136-NE2)

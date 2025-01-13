@@ -1,0 +1,11 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,"LIG-N1 - ASP212-OD1,2",23,2.899,9429,0.47,Donor,Donor,0.0,0.871142,['NONE'],['ASP212-OD1 (87.10)'],4.16 (LIG to ASP212-OD1)
+1,1,1,LIG-N1 - ASN199-OD1,16,2.265,13456,0.67,Donor,Donor,0.003716,1.838362,['LYS196-NZ (0.40)'],"['ASP198-OD2 (95.20)', 'ASP198-O (35.80)', 'ASN199-OD1 (52.80)']",12.094 (LIG to ASN199-OD1)
+2,2,2,LIG-N3 - MET152-N,3,0.971,19621,0.98,Acceptor,Acceptor,0.922736,0.086999,['MET152-N (92.30)'],['MET152-O (8.70)'],7.575 (MET152-N to LIG)

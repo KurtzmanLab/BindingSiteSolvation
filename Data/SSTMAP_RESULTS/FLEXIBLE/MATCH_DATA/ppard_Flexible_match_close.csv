@@ -1,0 +1,12 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-O4 - THR79-OG1,7.0,2.617,10830.0,0.54,Acceptor,,0.076731,0.540259,['THR79-OG1 (7.70)'],['THR79-OG1 (54.00)'],14.569 (THR79-OG1 to LIG)
+1,1,1,LIG-OXT - HIS114-NE2,,,,,Acceptor,,,,,,16.655 (HIS114-NE2 to LIG)
+2,2,2,LIG-OXT - THR80-OG1,2.0,1.524,13170.0,0.66,Acceptor,Donor,0.455125,0.915338,"['HIS114-NE2 (39.40)', 'HIS240-NE2 (6.10)']","['CYS76-SG (0.10)', 'THR80-OG1 (91.00)', 'HIS114-ND1 (0.50)']",6.353 (THR80-OG1 to LIG)
+3,3,3,LIG-O - HIS240-NE2,,,,,Acceptor,,,,,,9.491 (HIS240-NE2 to LIG)

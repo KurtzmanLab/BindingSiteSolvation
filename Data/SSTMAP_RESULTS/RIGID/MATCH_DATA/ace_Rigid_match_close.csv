@@ -1,0 +1,16 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-O6 - ALA318-N,5.0,0.748,19163.0,0.96,Acceptor,Acceptor/Donor,0.761206,1.064134,['ALA318-N (76.10)'],"['ALA318-O (0.00)', 'GLU346-OE1 (99.80)', 'GLU346-OE2 (6.60)']",10.446 (ALA318-N to LIG)
+1,1,1,LIG-O4 - HIS345-NE2,2.0,1.131,19674.0,0.98,Acceptor,Acceptor/Donor,1.272746,1.373285,"['HIS345-NE2 (94.80)', 'HIS349-NE2 (2.80)', 'TYR485-OH (29.70)']","['GLU346-OE1 (0.00)', 'GLU346-OE2 (93.60)', 'GLU373-OE1 (25.40)', 'GLU373-OE2 (18.30)', 'TYR485-OH (0.00)']",16.441 (HIS345-NE2 to LIG)
+2,2,2,LIG-O4 - TYR485-OH,,,,,Acceptor,,,,,,8.19 (TYR485-OH to LIG)
+3,3,3,LIG-O - LYS473-NZ,4.0,1.623,19377.0,0.97,Acceptor,Acceptor,1.044331,0.007535,"['LYS473-NZ (99.80)', 'TYR482-OH (4.60)']",['TYR482-OH (0.80)'],16.956 (LYS473-NZ to LIG)
+4,4,4,LIG-O - TYR482-OH,8.0,2.601,17502.0,0.88,Donor,Acceptor,0.824991,0.000343,['TYR482-OH (82.50)'],['TYR482-OH (0.00)'],29.216 (LIG to TYR482-OH)
+5,5,5,LIG-O5 - HIS345-NE2,2.0,1.209,19674.0,0.98,Acceptor,Acceptor/Donor,1.272746,1.373285,"['HIS345-NE2 (94.80)', 'HIS349-NE2 (2.80)', 'TYR485-OH (29.70)']","['GLU346-OE1 (0.00)', 'GLU346-OE2 (93.60)', 'GLU373-OE1 (25.40)', 'GLU373-OE2 (18.30)', 'TYR485-OH (0.00)']",24.392 (HIS345-NE2 to LIG)
+6,6,6,"LIG-O5 - GLU346-OE1,2",2.0,1.209,19674.0,0.98,Donor,Acceptor/Donor,1.272746,1.373285,"['HIS345-NE2 (94.80)', 'HIS349-NE2 (2.80)', 'TYR485-OH (29.70)']","['GLU346-OE1 (0.00)', 'GLU346-OE2 (93.60)', 'GLU373-OE1 (25.40)', 'GLU373-OE2 (18.30)', 'TYR485-OH (0.00)']","27.117 (LIG to GLU346-OE1), 13.532 (LIG to GLU346-OE2)"
+7,7,7,LIG-O3 - HIS315-NE2,12.0,1.386,15647.0,0.78,Acceptor,Acceptor,1.27673,0.108839,"['HIS315-NE2 (98.50)', 'HIS475-NE2 (29.10)', 'TYR485-OH (0.00)']","['ALA316-O (0.10)', 'TYR485-OH (10.80)']",8.421 (HIS315-NE2 to LIG)

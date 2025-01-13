@@ -1,0 +1,13 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,"LIG-O7 - ASP232-OD1,2",8.0,1.92,14158.0,0.71,Donor,Acceptor/Donor,0.91609,0.631374,"['LYS189-NZ (0.00)', 'GLN229-NE2 (91.60)']","['GLN229-OE1 (0.70)', 'ASP232-OD1 (2.90)', 'ASP232-OD2 (59.50)']",12.96 (LIG to ASP232-OD2)
+1,1,1,LIG-O6 - LYS246-NZ,,,,,Acceptor,,,,,,21.23 (LYS246-NZ to LIG)
+2,2,2,LIG-O3 - LYS189-NZ,29.0,1.884,7131.0,0.36,Acceptor,Acceptor,0.750245,0.079933,['LYS189-NZ (75.00)'],"['ASP163-OD1 (1.40)', 'ASP163-OD2 (3.70)', 'GLN229-OE1 (2.90)', 'ASP233-OD1 (0.00)']",25.874 (LYS189-NZ to LIG)
+3,3,3,"LIG-O4 - ARG101-NH1,2",9.0,1.972,13646.0,0.68,Acceptor,Acceptor,1.141507,0.0,"['ARG101-NH1 (76.80)', 'ARG101-NH2 (21.60)', 'LYS246-NZ (15.70)']",['NONE'],8.3 (ARG101-NH1 to LIG)
+4,4,4,"LIG-O5 - ARG101-NH1,2",9.0,1.304,13646.0,0.68,Acceptor,Acceptor,1.141507,0.0,"['ARG101-NH1 (76.80)', 'ARG101-NH2 (21.60)', 'LYS246-NZ (15.70)']",['NONE'],8.974 (ARG101-NH2 to LIG)

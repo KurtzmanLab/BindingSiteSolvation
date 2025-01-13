@@ -1,0 +1,11 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-O - GLY229-N,19,0.852,10941,0.55,Acceptor,,0.571429,0.067361,['GLY229-N (57.10)'],"['GLU203-OE2 (0.00)', 'GLY229-O (6.70)']",11.438 (GLY229-N to LIG)
+1,1,1,"LIG-N1 - ASP200-OD1,2",0,1.229,19022,0.95,Donor,Donor,0.016192,1.705499,['GLU230-N (1.60)'],"['ASP200-OD1 (2.90)', 'ASP200-OD2 (98.40)', 'GLU230-O (0.10)', 'GLY231-O (69.20)', 'TYR238-O (0.00)']",13.092 (LIG to GLY231-O)
+2,2,2,LIG-N1 - GLY231-O,0,1.229,19022,0.95,Donor,Donor,0.016192,1.705499,['GLU230-N (1.60)'],"['ASP200-OD1 (2.90)', 'ASP200-OD2 (98.40)', 'GLU230-O (0.10)', 'GLY231-O (69.20)', 'TYR238-O (0.00)']",15.953 (LIG to ASP200-OD2)

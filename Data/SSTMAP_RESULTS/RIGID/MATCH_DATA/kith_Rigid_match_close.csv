@@ -1,0 +1,13 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-N2 - ILE169-O,1,1.938,19757,0.99,Donor,Acceptor/Donor,0.865718,0.898618,"['PHE119-N (85.60)', 'ARG156-NH2 (0.90)']",['ILE169-O (89.90)'],12.082 (LIG to ILE169-O)
+1,1,1,LIG-O5 - PHE119-N,1,0.362,19757,0.99,Acceptor,Acceptor/Donor,0.865718,0.898618,"['PHE119-N (85.60)', 'ARG156-NH2 (0.90)']",['ILE169-O (89.90)'],20.33 (PHE119-N to LIG)
+2,2,2,"LIG-O - GLU88-OE1,2",13,1.221,10299,0.51,Donor,,0.0,0.57559,['NONE'],['GLU88-OE2 (57.60)'],5.33 (LIG to GLU88-OE2)
+3,3,3,LIG-O4 - LYS171-N,3,0.507,19504,0.98,Acceptor,Acceptor,0.970724,0.160377,"['LYS171-N (97.10)', 'TYR178-OH (0.00)']","['ILE169-O (9.30)', 'LYS171-O (3.90)', 'TYR178-OH (2.90)']",5.945 (LYS171-N to LIG)
+4,4,4,LIG-O3 - GLY173-N,8,1.248,17413,0.87,Acceptor,Acceptor,0.927468,0.552174,['GLY173-N (92.70)'],['GLY173-O (55.20)'],9.654 (GLY173-N to LIG)

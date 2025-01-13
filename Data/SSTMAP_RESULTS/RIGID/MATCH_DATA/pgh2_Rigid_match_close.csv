@@ -1,0 +1,12 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-N3 - SER323-O,5.0,0.924,13533.0,0.68,Donor,Donor,0.024607,1.378556,['HIS59-NE2 (2.50)'],"['GLN162-OE1 (55.40)', 'LEU322-O (0.00)', 'SER323-O (82.40)']",14.325 (LIG to SER323-O)
+1,1,1,LIG-N3 - GLN162-OE1,5.0,0.924,13533.0,0.68,Donor,Donor,0.024607,1.378556,['HIS59-NE2 (2.50)'],"['GLN162-OE1 (55.40)', 'LEU322-O (0.00)', 'SER323-O (82.40)']",15.763 (LIG to GLN162-OE1)
+2,2,2,"LIG-O - ARG483-NH1,2",,,,,Acceptor,,,,,,18.019 (ARG483-NH1 to LIG)
+3,3,3,LIG-OXT - PHE488-N,,,,,Acceptor,,,,,,23.46 (PHE488-N to LIG)

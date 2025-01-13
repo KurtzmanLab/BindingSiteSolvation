@@ -1,0 +1,11 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-N1 - LEU96-N,,,,,Acceptor,,,,,,11.408 (LEU96-N to LIG)
+1,1,1,LIG-O - LYS48-NZ,,,,,Acceptor,,,,,,16.93 (LYS48-NZ to LIG)
+2,2,2,"LIG-N3 - ASP162-OD1,2",12.0,1.382,14096.0,0.7,Donor,Donor,0.0,0.966515,['NONE'],['ASP162-OD2 (96.70)'],16.951 (LIG to ASP162-OD2)

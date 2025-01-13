@@ -1,0 +1,11 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-N4 - GLY202-O,12.0,2.461,10048.0,0.5,Donor,Donor,0.000299,1.052349,['SER203-OG (0.00)'],"['HIS201-NE2 (10.10)', 'GLY202-O (95.20)', 'SER203-OG (0.00)']",16.107 (LIG to GLY202-O)
+1,1,1,LIG-O - SER243-OG,2.0,1.526,16719.0,0.84,Acceptor,Acceptor,1.037682,0.137149,"['HIS201-ND1 (0.00)', 'GLY202-N (4.50)', 'ALA237-N (0.00)', 'SER243-OG (99.20)']","['TRP200-O (12.50)', 'TYR235-O (1.20)', 'SER243-OG (0.00)', 'GLU327-OE2 (0.00)']",10.345 (SER243-OG to LIG)
+2,2,2,LIG-O - GLY202-N,,,,,Acceptor,,,,,,2.684 (GLY202-N to LIG)

@@ -1,0 +1,12 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,"LIG-N1 - ASP193-OD1,2",4,2.085,17580,0.88,Donor,Donor,0.000114,1.648862,['SER194-OG (0.00)'],"['ASP193-OD1 (5.00)', 'ASP193-OD2 (99.40)', 'SER194-OG (0.30)', 'SER194-O (0.70)', 'GLY222-O (59.30)', 'LYS228-O (0.00)', 'PRO229-O (0.10)']","24.748 (LIG to ASP193-OD1), 28.571 (LIG to ASP193-OD2)"
+1,1,1,LIG-OXT - SER146-OG,7,2.821,16807,0.84,Acceptor,Acceptor/Donor,0.899863,0.858392,"['SER146-OG (0.10)', 'CYS223-N (89.90)']","['SER146-OG (73.10)', 'CYS223-O (12.70)']",28.983 (SER146-OG to LIG)
+2,2,2,LIG-N2 - GLY222-O,4,0.711,17580,0.88,Donor,Donor,0.000114,1.648862,['SER194-OG (0.00)'],"['ASP193-OD1 (5.00)', 'ASP193-OD2 (99.40)', 'SER194-OG (0.30)', 'SER194-O (0.70)', 'GLY222-O (59.30)', 'LYS228-O (0.00)', 'PRO229-O (0.10)']",5.339 (LIG to ASP193-OD2)
+3,3,3,"LIG-N2 - ASP193-OD1,2",4,0.711,17580,0.88,Donor,Donor,0.000114,1.648862,['SER194-OG (0.00)'],"['ASP193-OD1 (5.00)', 'ASP193-OD2 (99.40)', 'SER194-OG (0.30)', 'SER194-O (0.70)', 'GLY222-O (59.30)', 'LYS228-O (0.00)', 'PRO229-O (0.10)']",11.159 (LIG to GLY222-O)

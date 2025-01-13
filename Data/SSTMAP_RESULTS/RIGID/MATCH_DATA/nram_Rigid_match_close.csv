@@ -1,0 +1,13 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,"LIG-O - ARG75-NH1,2",4,0.75,19378,0.97,Acceptor,Acceptor,0.994065,0.002116,['ARG75-NH1 (99.40)'],['ASP74-OD1 (0.20)'],15.932 (ARG75-NH1 to LIG)
+1,1,1,"LIG-O5 - ARG299-NH1,2",18,5.023,14106,0.71,Acceptor,,0.591947,0.18524,['ARG41-NH2 (59.20)'],"['ARG72-O (5.60)', 'HIS364-NE2 (12.90)']",18.704 (ARG41-NH2 to LIG)
+2,2,2,"LIG-O5 - ARG41-NH1,2",2,1.264,19898,0.99,Acceptor,Acceptor,0.949442,0.023269,"['ARG41-NH2 (0.00)', 'ARG299-NE (0.00)', 'ARG299-NH2 (94.90)']",['TYR334-OH (2.30)'],17.555 (ARG299-NH2 to LIG)
+3,3,3,"LIG-O3 - GLU42-OE1,2",9,3.397,17790,0.89,Donor,Donor,0.095278,1.247274,"['ARG41-NH2 (0.00)', 'ARG79-NH1 (9.50)']","['GLU42-OE1 (75.00)', 'GLU42-OE2 (49.80)']",29.562 (LIG to GLU42-OE1)
+4,4,4,"LIG-OXT - GLU201-OE1,2",17,1.208,14041,0.7,Donor,Donor,0.019728,0.979489,['TYR334-OH (2.00)'],"['GLU201-OE2 (97.80)', 'TYR334-OH (0.20)']",6.409 (LIG to GLU201-OE2)

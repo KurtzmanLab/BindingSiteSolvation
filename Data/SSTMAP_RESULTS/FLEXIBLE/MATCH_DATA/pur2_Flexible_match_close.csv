@@ -1,0 +1,18 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-N2 - ALA141-O,3,0.97,18806,0.94,Donor,Donor,0.0,0.991492,['NONE'],"['ALA141-O (98.90)', 'GLU142-O (0.30)', 'ASP143-O (0.00)']",13.455 (LIG to ALA141-O)
+1,1,1,LIG-N1 - MET90-O,22,5.268,9098,0.45,Donor,Donor,0.120246,0.805891,"['ASN37-ND2 (0.10)', 'ARG91-NH1 (12.00)']",['MET90-O (80.60)'],13.726 (LIG to MET90-O)
+2,2,2,"LIG-O5 - ASP145-OD1,2",1,0.778,18917,0.95,Donor,Acceptor/Donor,0.820532,1.921711,['ASN107-ND2 (82.10)'],"['HIS109-ND1 (96.30)', 'ASP145-OD1 (95.30)', 'ASP145-OD2 (0.70)']",7.933 (LIG to ASP145-OD1)
+3,3,3,LIG-O5 - ASN107-ND2,1,0.778,18917,0.95,Acceptor,Acceptor/Donor,0.820532,1.921711,['ASN107-ND2 (82.10)'],"['HIS109-ND1 (96.30)', 'ASP145-OD1 (95.30)', 'ASP145-OD2 (0.70)']",20.566 (ASN107-ND2 to LIG)
+4,4,4,LIG-O4 - ASP145-N,4,0.528,18569,0.93,Acceptor,Acceptor,0.847218,0.02208,"['ALA141-N (0.00)', 'ASP145-N (84.70)']","['ALA141-O (0.00)', 'ASP145-OD1 (2.20)']",21.372 (ASP145-N to LIG)
+5,5,5,LIG-N3 - LEU93-O,16,1.576,11616,0.58,Donor,Donor,0.000344,0.922865,['LEU93-N (0.00)'],"['LEU93-O (75.60)', 'ALA141-O (0.00)', 'GLU142-O (16.60)']",28.357 (LIG to LEU93-O)
+6,6,6,"LIG-O7 - ARG65-NH1,2",36,2.024,6533,0.33,Acceptor,Acceptor,0.707026,0.0,"['ARG65-NH1 (16.20)', 'ARG65-NH2 (54.50)', 'ARG91-NH1 (0.00)']",['NONE'],4.265 (ARG65-NH2 to LIG)
+7,7,7,"LIG-O8 - ARG65-NH1,2",6,1.066,17827,0.89,Acceptor,Acceptor,1.681326,0.0,"['ARG65-NH1 (75.00)', 'ARG65-NH2 (0.60)', 'ARG91-NH1 (0.00)', 'ILE92-N (92.50)']",['NONE'],4.289 (ARG65-NH1 to LIG)
+8,8,8,LIG-O8 - ILE92-N,6,1.066,17827,0.89,Acceptor,Acceptor,1.681326,0.0,"['ARG65-NH1 (75.00)', 'ARG65-NH2 (0.60)', 'ARG91-NH1 (0.00)', 'ILE92-N (92.50)']",['NONE'],4.987 (ILE92-N to LIG)
+9,9,9,"LIG-O6 - ASP145-OD1,2",14,1.592,12159,0.61,Donor,Donor,0.0,1.088165,['NONE'],"['HIS109-ND1 (0.60)', 'GLY118-O (0.00)', 'ASP145-OD1 (12.60)', 'ASP145-OD2 (95.60)']",7.989 (LIG to ASP145-OD2)

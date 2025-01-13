@@ -1,0 +1,13 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-N1 - ASN242-ND2,,,,,Acceptor,,,,,,16.608 (ASN242-ND2 to LIG)
+1,1,1,LIG-O - ASN261-ND2,4.0,1.149,16250.0,0.81,Donor,Acceptor/Donor,0.955385,1.117231,"['ASN261-ND2 (95.50)', 'TYR265-OH (0.00)']","['ASP83-OD1 (22.40)', 'ASP83-OD2 (88.80)', 'ASN261-OD1 (0.40)', 'TYR265-OH (0.10)']",5.462 (LIG to ASP83-OD1)
+2,2,2,"LIG-O - ASP83-OD1,2",4.0,1.149,16250.0,0.81,Acceptor,Acceptor/Donor,0.955385,1.117231,"['ASN261-ND2 (95.50)', 'TYR265-OH (0.00)']","['ASP83-OD1 (22.40)', 'ASP83-OD2 (88.80)', 'ASN261-OD1 (0.40)', 'TYR265-OH (0.10)']",13.923 (ASN261-ND2 to LIG)
+3,3,3,LIG-N3 - SER173-OG,34.0,1.521,5639.0,0.28,Acceptor,Donor,0.003369,0.960277,"['SER174-OG (0.10)', 'ASN242-ND2 (0.30)']","['ALA170-O (0.00)', 'SER173-OG (77.50)', 'SER174-OG (18.50)']",6.626 (SER173-OG to LIG)
+4,4,4,LIG-N2 - ASN261-OD1,15.0,2.268,10301.0,0.52,Donor,Donor,0.0,0.864576,['NONE'],"['ASP83-OD2 (0.10)', 'ASN261-OD1 (71.50)', 'TYR265-OH (14.90)']",7.015 (LIG to ASN261-OD1)

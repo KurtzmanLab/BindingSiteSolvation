@@ -1,0 +1,17 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-N1 - PRO85-O,14,1.199,11976,0.6,Donor,Donor,0.007849,0.926436,"['THR87-OG1 (0.70)', 'TYR213-OH (0.10)']","['TYR58-OH (0.50)', 'PRO85-O (91.80)', 'THR87-OG1 (0.10)', 'TYR213-OH (0.30)']",16.951 (LIG to PRO85-O)
+1,1,1,LIG-N1 - THR87-OG1,7,2.421,16906,0.85,Donor,Acceptor,2.059683,0.305809,"['THR87-N (96.80)', 'THR87-OG1 (80.40)', 'ARG92-NH1 (28.10)', 'ARG92-NH2 (0.60)']","['PRO85-O (26.70)', 'THR87-OG1 (3.90)']",15.501 (LIG to THR87-OG1)
+2,2,2,LIG-O6 - SER138-N,15,0.783,11511,0.58,Acceptor,Acceptor,1.074885,0.024411,"['SER138-N (94.40)', 'SER138-OG (13.10)']",['SER138-OG (2.40)'],18.798 (SER138-N to LIG)
+3,3,3,LIG-O - PRO85-O,14,2.813,11976,0.6,Donor,Donor,0.007849,0.926436,"['THR87-OG1 (0.70)', 'TYR213-OH (0.10)']","['TYR58-OH (0.50)', 'PRO85-O (91.80)', 'THR87-OG1 (0.10)', 'TYR213-OH (0.30)']",21.629 (LIG to PRO85-O)
+4,4,4,"LIG-O - ARG92-NH1,2",12,3.357,13413,0.67,Acceptor,Acceptor,0.900246,0.0,"['ARG92-NH1 (3.30)', 'ARG92-NH2 (86.70)']",['NONE'],13.627 (ARG92-NH1 to LIG)
+5,5,5,LIG-O - THR87-N,7,0.678,16906,0.85,Acceptor,Acceptor,2.059683,0.305809,"['THR87-N (96.80)', 'THR87-OG1 (80.40)', 'ARG92-NH1 (28.10)', 'ARG92-NH2 (0.60)']","['PRO85-O (26.70)', 'THR87-OG1 (3.90)']",10.867 (THR87-N to LIG)
+6,6,6,LIG-O5 - SER138-OG,24,4.716,9590,0.48,Acceptor,Acceptor,0.6756,0.241084,"['SER138-OG (65.70)', 'THR139-OG1 (1.80)']","['SER138-OG (10.80)', 'SER138-O (0.00)', 'THR139-OG1 (13.30)']",9.898 (SER138-OG to LIG)
+7,7,7,LIG-O5 - SER138-N,15,1.989,11511,0.58,Acceptor,Acceptor,1.074885,0.024411,"['SER138-N (94.40)', 'SER138-OG (13.10)']",['SER138-OG (2.40)'],27.685 (SER138-N to LIG)
+8,8,8,"LIG-OXT - ARG92-NH1,2",12,1.113,13413,0.67,Acceptor,Acceptor,0.900246,0.0,"['ARG92-NH1 (3.30)', 'ARG92-NH2 (86.70)']",['NONE'],8.624 (ARG92-NH2 to LIG)

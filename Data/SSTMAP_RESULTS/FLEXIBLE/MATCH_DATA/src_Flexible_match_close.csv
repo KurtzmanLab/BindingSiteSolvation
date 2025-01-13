@@ -1,0 +1,13 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-O - ASP148-N,8,1.627,14648,0.73,Acceptor,Acceptor/Donor,0.809462,1.705762,"['LYS39-NZ (0.10)', 'ASP148-N (80.80)']","['GLU54-OE1 (33.10)', 'GLU54-OE2 (53.20)', 'MET58-SD (0.20)', 'ASP148-OD1 (70.90)', 'ASP148-OD2 (0.70)', 'ASP148-O (12.50)']",10.68 (ASP148-N to LIG)
+1,1,1,LIG-N5 - GLU83-O,1,1.173,19262,0.96,Donor,Acceptor/Donor,0.763368,0.980791,"['THR82-OG1 (0.50)', 'MET85-N (75.80)']","['THR82-OG1 (0.20)', 'GLU83-O (97.90)']",11.575 (LIG to GLU83-O)
+2,2,2,"LIG-N6 - GLU54-OE1,2",8,2.182,14648,0.73,Donor,Acceptor/Donor,0.809462,1.705762,"['LYS39-NZ (0.10)', 'ASP148-N (80.80)']","['GLU54-OE1 (33.10)', 'GLU54-OE2 (53.20)', 'MET58-SD (0.20)', 'ASP148-OD1 (70.90)', 'ASP148-OD2 (0.70)', 'ASP148-O (12.50)']",12.855 (LIG to GLU54-OE2)
+3,3,3,"LIG-N7 - GLU54-OE1,2",8,0.673,14648,0.73,Donor,Acceptor/Donor,0.809462,1.705762,"['LYS39-NZ (0.10)', 'ASP148-N (80.80)']","['GLU54-OE1 (33.10)', 'GLU54-OE2 (53.20)', 'MET58-SD (0.20)', 'ASP148-OD1 (70.90)', 'ASP148-OD2 (0.70)', 'ASP148-O (12.50)']",19.464 (LIG to GLU54-OE2)
+4,4,4,LIG-N1 - MET85-N,1,1.584,19262,0.96,Acceptor,Acceptor/Donor,0.763368,0.980791,"['THR82-OG1 (0.50)', 'MET85-N (75.80)']","['THR82-OG1 (0.20)', 'GLU83-O (97.90)']",5.431 (MET85-N to LIG)

@@ -1,0 +1,11 @@
+,Unnamed: 0,index,Prot - Lig,HS_idx,"Distance 
+(Lig - HS)",n_WAT,Occupancy,"Ligand 
+Feature","Water 
+Feature","HS Acc rate 
+(Prot to HS)","HS Don rate 
+(HS to Prot)","Protein atoms 
+(Prot to HS %)","Protein atoms 
+(HS to Prot %)",Prot_Lig_angle
+0,0,0,LIG-O - MET106-N,,,,,Acceptor,,,,,,15.883 (MET106-N to LIG)
+1,1,1,LIG-OXT - ASN109-ND2,10.0,1.629,10552.0,0.53,Acceptor,Acceptor,0.857183,0.002843,['ASN109-ND2 (85.70)'],['ASN109-OD1 (0.30)'],9.445 (ASN109-ND2 to LIG)
+2,2,2,LIG-O4 - LYS25-NZ,,,,,Acceptor,,,,,,9.704 (LYS25-NZ to LIG)
