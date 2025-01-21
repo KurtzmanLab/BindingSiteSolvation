@@ -1,0 +1,7 @@
+parm xiap.prmtop
+
+trajin xiap.nc start_frame end_frame 1
+
+gist pme hbond refdens 0.033422885325 gridspacn 0.5 gridcntr 40.210 48.466 47.404 griddim 312 374 354 floatfmt double floatprec 8 prefix Gist4 info Info.dat
+go
+quit

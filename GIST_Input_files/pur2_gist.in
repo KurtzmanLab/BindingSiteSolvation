@@ -1,0 +1,7 @@
+parm pur2.prmtop
+
+trajin pur2.nc start_frame end_frame 1
+
+gist pme hbond refdens 0.033422885325 gridspacn 0.5 gridcntr 42.177 32.076 34.453 griddim 294 222 222 floatfmt double floatprec 8 prefix Gist4 info Info.dat
+go
+quit

@@ -1,0 +1,7 @@
+parm mapk2.prmtop
+
+trajin mapk2.nc start_frame end_frame 1
+
+gist pme hbond refdens 0.033422885325 gridspacn 0.5 gridcntr 32.021 39.443 38.704 griddim 228 312 286 floatfmt double floatprec 8 prefix Gist4 info Info.dat
+go
+quit

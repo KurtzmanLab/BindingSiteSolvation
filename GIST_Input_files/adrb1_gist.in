@@ -1,0 +1,7 @@
+parm adrb1.prmtop
+
+trajin adrb1.nc start_frame end_frame 1
+
+gist pme hbond refdens 0.033422885325 gridspacn 0.5 gridcntr 42.715 43.794 36.630 griddim 320 314 252 floatfmt double floatprec 8 prefix Gist4 info Info.dat
+go
+quit
