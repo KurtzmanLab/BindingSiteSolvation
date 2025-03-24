@@ -24,3 +24,8 @@ This folder contains:
 This folder contains:
 - GIST input files for 34 systems.
 - The topology and trajectory files for rigid and flexible systems were used as inputs, respectively.
+
+#### **Site_analysis_tools**
+This folder contains:
+- Python code to analyze binding sites.
+- Number of hydrogen bonds, Number of water neighbors, Conformation analysis of residues.
