@@ -145,15 +145,15 @@ class HbondAnalysis:
             resn = self.topology.residue(idx).name
             atom_list = atom_search(resn)
 
+            nwat = 0
             for at in atom_list:
                 at_idx = self.topology.select("residue " + str(idx) + " and name " + str(at))[0]
                 atom = self.topology.atom(at_idx)
                 within_d = md.compute_neighbors(traj, 0.36, query_indices=np.asarray([at_idx]))
 
-            nwat = 0
-            for at in within_d[0]:
-                if at in self.trj_watO:
-                    nwat += 1
+                for wat in within_d[0]:
+                    if wat in self.trj_watO:
+                        nwat += 1
 
             wat_neighbors[atom] = nwat
 
