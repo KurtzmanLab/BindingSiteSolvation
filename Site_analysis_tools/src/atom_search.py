@@ -31,3 +31,12 @@ def atom_search(resn):
             atoms += sc_atoms[resn]
 
         return atoms
+
+def sc_atom_search(resn):
+    if resn not in amino_acids:
+        raise ValueError(f"'{resn}' is not a valid amino acid.")
+
+    if resn in amino_acids:
+        if resn in sc_atoms.keys():
+
+            return sc_atoms[resn]

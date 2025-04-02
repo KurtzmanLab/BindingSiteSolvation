@@ -81,6 +81,7 @@ class HbondAnalysis:
 
         for idx in self.resi:
             sol_don = self.find_pair(idx)["sol_don"]
+
             for pair in sol_don:
                 atom = self.topology.atom(pair[0])
                 within_d = md.compute_neighbors(traj, 0.35, query_indices=[pair[0]])
@@ -90,15 +91,21 @@ class HbondAnalysis:
                     if at in self.trj_watO:
                         wat_within_d.append(at)
 
-                ndon = 0
+
                 for watO in wat_within_d:
+                    ndon = 0
                     triplet_list = [[watO, pair[0], pair[1]]]
                     angle_list = self.get_angle(traj, triplet_list)
                     for angle in angle_list:
                         if angle <= 30:
                             ndon += 1
 
-                num_sol_don[atom] = ndon
+
+                    if atom in num_sol_don.keys():
+                        num_sol_don[atom] += ndon
+                    if atom not in num_sol_don.keys():
+                        num_sol_don[atom] = ndon
+
 
         return num_sol_don
 
@@ -123,15 +130,21 @@ class HbondAnalysis:
                     if at in self.trj_watO:
                         wat_within_d.append(at)
 
-                nacc = 0
                 for watO in wat_within_d:
+                    nacc = 0
                     triplet_list = [[acc, watO, watO + 1], [acc, watO, watO + 2]]
                     angle_list = self.get_angle(traj, triplet_list)
                     for angle in angle_list:
                         if angle <= 30:
                             nacc += 1
 
-                num_sol_acc[atom] = nacc
+
+                    if atom in num_sol_acc.keys():
+                        num_sol_acc[atom] += nacc
+                    if atom not in num_sol_acc.keys():
+                        num_sol_acc[atom] = nacc
+
+                    
 
         return num_sol_acc
 
@@ -142,20 +155,23 @@ class HbondAnalysis:
 
         traj = md.load(self.trajectory, frame=i, top=self.topology)
         for idx in self.resi:
-            resn = self.topology.residue(idx).name
-            atom_list = atom_search(resn)
+            resn = self.topology.residue(idx).name      # eg) GLU, GLN
+            atom_list = atom_search(resn)       # residue atom name list: [N, O, NE2, OE1]
 
-            nwat = 0
             for at in atom_list:
+                nwat = 0
                 at_idx = self.topology.select("residue " + str(idx) + " and name " + str(at))[0]
-                atom = self.topology.atom(at_idx)
+                atom = self.topology.atom(at_idx)       # atom name eg) GLU67-OE1
                 within_d = md.compute_neighbors(traj, 0.36, query_indices=np.asarray([at_idx]))
 
                 for wat in within_d[0]:
                     if wat in self.trj_watO:
                         nwat += 1
 
-            wat_neighbors[atom] = nwat
-
+                if atom in wat_neighbors.keys():
+                    wat_neighbors[atom] += nwat
+                if atom not in wat_neighbors.keys():
+                    wat_neighbors[atom] = nwat
+        
         return wat_neighbors
 

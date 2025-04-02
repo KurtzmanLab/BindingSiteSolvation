@@ -4,7 +4,7 @@ def adjust_index(file_path, indices):
         indices = [idx - 1 for idx in indices]
 
     elif file_path.endswith('.pdb'):
-        indices = [idx for idx in indices]
+        indices = [idx - 1 for idx in indices]
 
     else:
         print("Unsupported file format")

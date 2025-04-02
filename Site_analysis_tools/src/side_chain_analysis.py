@@ -1,7 +1,7 @@
 import mdtraj as md
 import numpy as np
 
-from src.atom_search import atom_search
+from src.atom_search import sc_atom_search
 from src.adjust_indices import adjust_index
 
 
@@ -18,10 +18,10 @@ class SideChainAnalysis:
 
 
     ### return xyz coordinates of at_top of traj/frame
-    def list_coords(self, traj, at_top, resn, typer):
+    def list_coords(self, traj, at_top, resn):
         coords_list = {}
-
-        atom_name_list = sorted(atom_search(resn))
+        
+        atom_name_list = sorted(sc_atom_search(resn))
 
         for idx in at_top:
             name = traj.top.atom(idx).name
@@ -35,13 +35,13 @@ class SideChainAnalysis:
     ### return time average coordinates of rigid/flexible structure
     def avg_coords(self, idx):
 
-        ahr_resn = self.rigid_avg.top.residue(idx-1).name
-        ahr_atom_top = self.rigid_avg.top.select("residue " + str(idx))
-        ahr_coords = self.list_coords(self.rigid_avg, ahr_atom_top, ahr_resn, "ahr")
+        ahr_resn = self.rigid_avg.top.residue(idx).name
+        ahr_atom_top = self.rigid_avg.top.select("residue " + str(idx + 1))
+        ahr_coords = self.list_coords(self.rigid_avg, ahr_atom_top, ahr_resn)
 
-        bbr_resn = self.flexible_avg.top.residue(idx-1).name
-        bbr_atom_top = self.flexible_avg.top.select("residue " + str(idx))
-        bbr_coords = self.list_coords(self.flexible_avg, bbr_atom_top, bbr_resn, "bbr")
+        bbr_resn = self.flexible_avg.top.residue(idx).name
+        bbr_atom_top = self.flexible_avg.top.select("residue " + str(idx + 1))
+        bbr_coords = self.list_coords(self.flexible_avg, bbr_atom_top, bbr_resn,)
 
         avg_dic = {"rigid": ahr_coords, "flexible": bbr_coords}
 
@@ -54,7 +54,7 @@ class SideChainAnalysis:
         traj = md.load(self.trajectory, frame=i, top=self.topology)
         res = self.topology.select("residue " + str(idx))
         resn = self.topology.residue(idx).name
-        trj_coords = self.list_coords(traj, res, resn, "trj")
+        trj_coords = self.list_coords(traj, res, resn)
 
         return trj_coords
 
@@ -68,9 +68,16 @@ class SideChainAnalysis:
             trj_idx = self.trj_resi[idx]
             avg_idx = self.avg_resi[idx]
 
+            # print(self.topology.residue(trj_idx))
+            # print(self.rigid_avg.topology.residue(avg_idx))
+
+
             ahr_coords = self.avg_coords(avg_idx)["rigid"]
             bbr_coords = self.avg_coords(avg_idx)["flexible"]
             trj_coords = self.trj_coords(i, trj_idx)
+
+            # print(ahr_coords)
+            # print(trj_coords)
 
             keys = list(trj_coords.keys())
 
@@ -85,6 +92,7 @@ class SideChainAnalysis:
                 conf = "ahr"
             else:
                 conf = "bbr"
+
 
             residue = self.topology.residue(trj_idx)
             conf_dic[residue] = conf
