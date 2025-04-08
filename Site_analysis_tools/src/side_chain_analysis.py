@@ -20,16 +20,19 @@ class SideChainAnalysis:
     ### return xyz coordinates of at_top of traj/frame
     def list_coords(self, traj, at_top, resn):
         coords_list = {}
-        
-        atom_name_list = sorted(sc_atom_search(resn))
 
-        for idx in at_top:
-            name = traj.top.atom(idx).name
-            if name in atom_name_list:
-                crds = traj.xyz[0, idx, :]*10
-                coords_list[name] = crds
+        if sc_atom_search(resn) is not None:
+            atom_name_list = sorted(sc_atom_search(resn))
 
-        return coords_list
+            for idx in at_top:
+                name = traj.top.atom(idx).name
+                if name in atom_name_list:
+                    crds = traj.xyz[0, idx, :]*10
+                    coords_list[name] = crds
+
+            return coords_list
+        else:
+            return
 
 
     ### return time average coordinates of rigid/flexible structure
@@ -79,22 +82,23 @@ class SideChainAnalysis:
             # print(ahr_coords)
             # print(trj_coords)
 
-            keys = list(trj_coords.keys())
+            if trj_coords is not None:
+                keys = list(trj_coords.keys())
 
-            ahr_distance, bbr_distance = 0, 0
-            for at in keys:
-                dist_a = np.linalg.norm(ahr_coords[at] - trj_coords[at]) * 10
-                dist_b = np.linalg.norm(bbr_coords[at] - trj_coords[at]) * 10
-                ahr_distance += dist_a
-                bbr_distance += dist_b
+                ahr_distance, bbr_distance = 0, 0
+                for at in keys:
+                    dist_a = np.linalg.norm(ahr_coords[at] - trj_coords[at]) * 10
+                    dist_b = np.linalg.norm(bbr_coords[at] - trj_coords[at]) * 10
+                    ahr_distance += dist_a
+                    bbr_distance += dist_b
 
-            if ahr_distance <= bbr_distance:
-                conf = "ahr"
-            else:
-                conf = "bbr"
+                if ahr_distance <= bbr_distance:
+                    conf = "ahr"
+                else:
+                    conf = "bbr"
 
 
-            residue = self.topology.residue(trj_idx)
-            conf_dic[residue] = conf
+                residue = self.topology.residue(trj_idx)
+                conf_dic[residue] = conf
 
         return conf_dic
