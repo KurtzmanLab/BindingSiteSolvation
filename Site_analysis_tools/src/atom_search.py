@@ -1,10 +1,10 @@
 
 amino_acids = ["ALA", "ARG", "ASP", "ASH", "ASN", "CYS", "CYM", "CYX",
                "GLN", "GLU", "GLH", "GLY", "HIS", "HIE", "HID", "HIP",
-               "ILE", "LUE", "LYS", "LYN", "MET", "PHE", "PRO", "SER",
+               "ILE", "LEU", "LYS", "LYN", "MET", "PHE", "PRO", "SER",
                "THR", "TRP", "TYR", "VAL"]
 
-non_polar = ["ALA", "GLY", "ILE", "LUE", "PHE", "PRO", "VAL"]
+non_polar = ["ALA", "GLY", "ILE", "LEU", "PHE", "PRO", "VAL"]
 
 sc_atoms = {"ARG": ["NE", "NH1", "NH2"],
             "ASP": ["OD1", "OD2"], "ASH": ["OD1", "OD2"],
@@ -40,3 +40,4 @@ def sc_atom_search(resn):
         if resn in sc_atoms.keys():
 
             return sc_atoms[resn]
+
